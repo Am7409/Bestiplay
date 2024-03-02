@@ -3,6 +3,8 @@ import GameCards from "./home/GameCards";
 import Filters from "./home/filters/Filter.component";
 
 export default function Home() {
+  console.log(process.env.NEXT_PUBLIC_SUPABASE_URL,"the url");
+  console.log(process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY,"the key is here");
   return (
     <>
       {/* <FilterData func={func} /> */}
