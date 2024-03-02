@@ -42,7 +42,8 @@ export default function GameCards() {
 
 
   const filteredGame = applyFilters();
-  // console.log(filteredGame)
+  console.log(process.env.NEXT_PUBLIC_SUPABASE_URL,"the url");
+  console.log(process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY,"the key is here");
   return (
     <>
       {filteredGame.length === 0 ? (
