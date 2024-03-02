@@ -88,11 +88,11 @@ const playerCardsMapping: Record<number, Array<string>> = {
 export default function PlayerChoosePage({
   players = 5,
   setPlayerChoosen,
-  setRuleMiddlePage
+  setRuleMiddlePage,
 }: {
   players?: number;
-  setPlayerChoosen:(value:boolean)=> void;
-  setRuleMiddlePage:(value:boolean)=>void;
+  setPlayerChoosen: (value: boolean) => void;
+  setRuleMiddlePage: (value: boolean) => void;
 }) {
   const [open, setOpen] = useState(false);
   const [player, setPlayer] = useState<string>("");
@@ -119,12 +119,12 @@ export default function PlayerChoosePage({
       setShowHandPhone(false);
     }, 2000);
   }
- 
-  if(showModal.length === players){
+
+  if (showModal.length === players) {
     setPlayerChoosen(false);
     setRuleMiddlePage(true);
   }
-  
+
   return (
     <>
       <div className="flex flex-col h-screen gap-y-10 bg-red-500">
@@ -178,8 +178,9 @@ export default function PlayerChoosePage({
             ) : (
               <div className="flex justify-center">
                 <p className=" font-semibold text-center">
-                  This card has already been taken, please choose a card with a{" "}
-                  <b className=" font-black text-orange">"?"</b> on it.
+                  This card has already been taken, please choose a card with a
+                  <b className=" font-black text-orange">&qout;?&qout;</b> on
+                  it.
                 </p>
               </div>
             )}

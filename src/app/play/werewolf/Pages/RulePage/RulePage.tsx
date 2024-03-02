@@ -33,7 +33,7 @@ export default function RulePage({
               Start the Game:
               <ul className="flex flex-col list-disc text-base ml-4">
                 <li>
-                  Instruct everyone to "go to sleep" by closing their eyes or
+                  Instruct everyone to &qout;go to sleep&qout; by closing their eyes or
                   putting their heads down.
                 </li>
               </ul>
@@ -42,33 +42,33 @@ export default function RulePage({
               Night Phase:
               <ul className="flex flex-col list-disc text-base ml-4">
                 <li>
-                  Call on the Werewolves to "wake up" and silently decide on a
+                  Call on the Werewolves to &qout;wake up&qout; and silently decide on a
                   player to eliminate. Ensure they agree silently to avoid
-                  revealing their identities. Then ask the Werewolves to "go
-                  back to sleep."
+                  revealing their identities. Then ask the Werewolves to &qout;go
+                  back to sleep.&qout;
                 </li>
                 <li>
                   Now, ask the Seer to open their eyes and point to a player
                   they suspect could be a Werewolf. Respond with a thumbs up if
                   they are correct, or a thumbs down if they are incorrect.
-                  Then, ask the Seer to "go back to sleep."
+                  Then, ask the Seer to &qout;go back to sleep.&qout;
                 </li>
                 <li>
                   Next, ask the Healer to wake up and point to one player they
-                  wish to save for the night. Ensure the Healers’s choice is
-                  noted without verbal confirmation, then ask the Healer to "go
-                  back to sleep."
+                  wish to save for the night. Ensure the Healers&apos;s choice is
+                  noted without verbal confirmation, then ask the Healer to &qout;go
+                  back to sleep.&qout;
                 </li>
               </ul>
             </li>
             <li className="text-xl font-medium">
               Day Phase:
               <ul className="flex flex-col list-disc text-base ml-4">
-                <li>Instruct everyone to "wake up."</li>
+                <li>Instruct everyone to &qout;wake up.&qout;</li>
                 <li>
                   Announce the outcome of the night. If the Healer saved the
-                  Werewolve's target, state that everyone survived the night. If
-                  the Werewolve's target was not saved, reveal that the targeted
+                  Werewolve&apos;s target, state that everyone survived the night. If
+                  the Werewolve&apos;s target was not saved, reveal that the targeted
                   player has been eliminated and instruct them to reveal their
                   role. They can no longer participate in discussions or votes
                   but are welcome to watch silently.
@@ -107,7 +107,7 @@ export default function RulePage({
                   vote, or decide that no one is eliminated this round.
                 </li>
                 <li>
-                  Following the vote, ask everyone to "go to sleep," signifying
+                  Following the vote, ask everyone to &qout;go to sleep,&qout; signifying
                   the start of the next Night Phase.
                 </li>
               </ul>

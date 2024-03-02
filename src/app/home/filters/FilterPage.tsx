@@ -25,16 +25,19 @@ export default function FilterPage() {
   };
 
   useEffect(() => {
-    dispatch(setSelectedFilter(selectedFilters));
-  }, [selectedFilters]);
+    function putFilterData() {
+      dispatch(setSelectedFilter(selectedFilters));
+    }
+    putFilterData();
+  }, [selectedFilters, dispatch]);
 
   useEffect(() => {
     async function allFilters() {
-      const {data} = await getAllFilters();
+      const { data } = await getAllFilters();
       dispatch(setFilters(data?.[0].filtersOrder));
     }
     allFilters();
-  }, []);
+  }, [dispatch]);
 
   return (
     <>

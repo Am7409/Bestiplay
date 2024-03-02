@@ -139,7 +139,7 @@ export default function SignInForm() {
           )}
         />
         <Button type="submit" className="w-full flex gap-2 bg-white text-black font-Marker rounded-full p-6 text-3xl hover:bg-glow ">
-          Let's have more Fun!!
+          Let&apos;s have more Fun!!
           <UpdateIcon className={cn("animate-spin",{"hidden":!isPending})} />
         </Button>
       </form>

@@ -4,7 +4,7 @@ import OAuthForm from "../components/OAuthForm";
 import RegisterForm from "../components/RegisterForm";
 import Link from "next/link";
 
-export default function RegisterUser() {
+export default async function RegisterUser() {
   return (
     <>
       <div className=" bg-main-color h-full flex gap-y-4 flex-col">

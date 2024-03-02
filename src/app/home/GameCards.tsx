@@ -24,7 +24,7 @@ export default function GameCards() {
       // console.log(data);
     }
     gameData();
-  }, [filters]);
+  }, [filters, dispatch]);
    
  
   const applyFilters = () => {

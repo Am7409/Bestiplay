@@ -57,7 +57,7 @@ export default function GameDetails() {
                 href={`/play/${gameData?.[0]?.slug}`}
                 className="flex flex-col justify-center p-3 rounded-full text-white border-2 border-slate-950 bg-main-button-color font-Marker text-2xl sm:p-6 sm:text-4xl"
               >
-                Let's Play
+                Let&apos;s Play
               </Link>
             </div>
           </div>
